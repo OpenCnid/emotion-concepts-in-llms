@@ -34,11 +34,21 @@ The paper is careful and so should we be: **"functional emotion" is not "the mod
 
 Nicholas Sofroniew, Isaac Kauvar, William Saunders, Runjin Chen, Tom Henighan, Sasha Hydrie, Craig Citro, Adam Pearce, Julius Tarng, Wes Gurnee, Joshua Batson, Sam Zimmerman, Kelley Rivoire, Kyle Fish, Chris Olah, and Jack Lindsey. Sixteen names. Real ones. Do not cite "some repo on GitHub," cite them.
 
+## 📥 want the PDF? one command, straight from the source
+
+We don't keep a copy here on purpose — a photocopy drifts out of date and, honestly, isn't ours to hand out. But arXiv already serves a stable, direct-download, version-of-record PDF, so point your curl / retrieval pipeline / 2am-grad-student-self at the real one:
+
+```bash
+curl -L -o emotion-concepts.pdf https://arxiv.org/pdf/2604.07729
+```
+
+Same bytes every time, always the current version, zero photocopier smell. That's the whole "direct download on demand" convenience — just aimed at the official file instead of a mirror we'd have to babysit.
+
 ## where to actually read it (do this)
 
 - 📄 **The paper** — Transformer Circuits Thread: https://transformer-circuits.pub/2026/emotions/index.html
 - 🧵 **The friendly writeup** — Anthropic research: https://www.anthropic.com/research/emotion-concepts-function
-- 🗄️ **arXiv mirror** — abstract + preprint: https://arxiv.org/abs/2604.07729
+- 🗄️ **arXiv (abstract + PDF)** — https://arxiv.org/abs/2604.07729
 
 ## cite the humans, not us
 
