@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-18",
+  "repo": "https://github.com/OpenCnid/emotion-concepts-in-llms",
+  "notes": [
+    {
+      "id": "2026-emotion-concepts-in-llms",
+      "path": "density-chain.md",
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "authors": [
+        "Nicholas Sofroniew",
+        "Isaac Kauvar",
+        "William Saunders",
+        "Runjin Chen",
+        "Tom Henighan",
+        "Sasha Hydrie",
+        "Craig Citro",
+        "Adam Pearce",
+        "Julius Tarng",
+        "Wes Gurnee",
+        "Joshua Batson",
+        "Sam Zimmerman",
+        "Kelley Rivoire",
+        "Kyle Fish",
+        "Chris Olah",
+        "Jack Lindsey"
+      ],
+      "lab": "anthropic",
+      "year": 2026,
+      "venue": "Transformer Circuits Thread, 2026 (arXiv archival preprint)",
+      "canonical": "https://transformer-circuits.pub/2026/emotions/index.html",
+      "arxiv": "https://arxiv.org/abs/2604.07729",
+      "pinned_version": "arXiv:2604.07729v1 (archival of the 2026-04-02 blog publication)",
+      "pinned_date": "2026-04-09",
+      "source_license": "arXiv.org perpetual non-exclusive license 1.0",
+      "date_summarized": "2026-07-18",
+      "verified_against_source": "2026-07-18",
+      "tier_budget_words": 150,
+      "tags": [
+        "interpretability",
+        "emotions",
+        "steering",
+        "alignment",
+        "anthropic",
+        "claude-sonnet"
+      ]
+    }
+  ]
+}

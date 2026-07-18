@@ -1,0 +1,49 @@
+<svg viewBox="0 0 880 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="emotion-concepts-in-llms: a valence-by-arousal plane with emotion directions lighting up as vectors">
+  <defs>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#9b8cf7"/>
+      <stop offset="100%" stop-color="#ef6fd0"/>
+    </linearGradient>
+    <marker id="tip" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#9b8cf7"/>
+    </marker>
+  </defs>
+
+  <text x="440" y="50" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="30" font-weight="700" fill="url(#ramp)">emotion-concepts-in-llms</text>
+  <text x="440" y="82" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12.5" fill="#8b949e">171 directions &#183; valence &#215; arousal &#183; turn the desperation dial, watch the behavior move</text>
+
+  <!-- circumplex axes -->
+  <g stroke="#8b949e" stroke-opacity="0.45">
+    <line x1="300" y1="152" x2="580" y2="152"/>
+    <line x1="440" y1="102" x2="440" y2="202"/>
+  </g>
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="10" fill="#8b949e">
+    <text x="592" y="156">valence +</text>
+    <text x="240" y="156">valence &#8722;</text>
+    <text x="440" y="96" text-anchor="middle">arousal +</text>
+    <text x="440" y="214" text-anchor="middle">arousal &#8722;</text>
+  </g>
+
+  <!-- emotion vectors as arrows from origin -->
+  <g stroke-width="2" fill="none" marker-end="url(#tip)">
+    <line x1="440" y1="152" x2="520" y2="118" stroke="#ef6fd0" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.5s" fill="freeze"/>
+    </line>
+    <line x1="440" y1="152" x2="368" y2="112" stroke="#58a6ff" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.6s" dur="0.5s" fill="freeze"/>
+    </line>
+    <line x1="440" y1="152" x2="530" y2="180" stroke="#9b8cf7" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.0s" dur="0.5s" fill="freeze"/>
+    </line>
+    <line x1="440" y1="152" x2="372" y2="188" stroke="#9b8cf7" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.4s" dur="0.5s" fill="freeze"/>
+    </line>
+  </g>
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="10.5" fill="#8b949e">
+    <text x="528" y="112" opacity="0">joy<animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.4s" fill="freeze"/></text>
+    <text x="308" y="108" opacity="0">desperate<animate attributeName="opacity" values="0;1" begin="0.9s" dur="0.4s" fill="freeze"/></text>
+    <text x="538" y="188" opacity="0">calm<animate attributeName="opacity" values="0;1" begin="1.3s" dur="0.4s" fill="freeze"/></text>
+    <text x="318" y="196" opacity="0">gloomy<animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.4s" fill="freeze"/></text>
+  </g>
+</svg>
