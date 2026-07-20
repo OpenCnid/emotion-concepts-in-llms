@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-18",
+  "updated": "2026-07-20",
   "repo": "https://github.com/OpenCnid/emotion-concepts-in-llms",
   "notes": [
     {
@@ -34,7 +34,7 @@
       "pinned_date": "2026-04-09",
       "source_license": "arXiv.org perpetual non-exclusive license 1.0",
       "date_summarized": "2026-07-18",
-      "verified_against_source": "2026-07-18",
+      "verified_against_source": "2026-07-20",
       "tier_budget_words": 150,
       "tags": [
         "interpretability",
