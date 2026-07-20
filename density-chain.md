@@ -5,7 +5,7 @@ venue: "Transformer Circuits Thread, 2026 (arXiv archival preprint, cs.AI)"
 source: "https://arxiv.org/abs/2604.07729 (pinned: arXiv:2604.07729v1, 2026-04-09; archival of the April 2, 2026 publication at https://transformer-circuits.pub/2026/emotions/index.html)"
 license: "arXiv.org perpetual non-exclusive license 1.0 (arXiv record); no license stated for the original blog publication"
 date_summarized: 2026-07-18
-verified_against_source: 2026-07-18
+verified_against_source: 2026-07-20
 tier_budget_words: 150
 tags: [interpretability, emotions, steering, alignment, anthropic, claude-sonnet]
 entity_ledger:
@@ -170,10 +170,14 @@ assumed. Their method-generality claim is what our sidecar bet extrapolates
   April 2, 2026)
 - Version studied: arXiv:2604.07729v1 (submitted 2026-04-09), the authors'
   archival preprint of that publication; v1 is the latest as of verification
-- Verified against source: 2026-07-18, studied from the arXiv v1 PDF fetched
-  fresh from arXiv; section, figure, and table numbering follows that PDF
-  (the blog rendering has no numbered sections)
+- Verified against source: 2026-07-20 (re-verified; first verified 2026-07-18),
+  studied from the arXiv v1 PDF fetched fresh from arXiv; section, figure, and
+  table numbering follows that PDF (the blog rendering has no numbered sections)
 - Source license: arXiv.org perpetual non-exclusive license 1.0 on the arXiv
   record; the paper itself recommends the blog version for interactivity
   [p. 1, fn. 1]
+- Re-verification 2026-07-20: every T1–T5 claim, all sixteen Key-results rows,
+  and every locator (§ sections, Tables, Figures) re-checked against a fresh
+  pull of arXiv:2604.07729v1; v1 remains the latest version. No discrepancies
+  found — verified clean, verification date refreshed only.
 - Revisions or errata noticed since: none
